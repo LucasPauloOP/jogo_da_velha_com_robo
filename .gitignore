@@ -1,0 +1,6 @@
+/__pycache__
+/.idea
+/gui.py
+/sim.py
+/simConst.py
+/remoteApi.so
