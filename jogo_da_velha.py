@@ -485,7 +485,7 @@ while jogar:
       #Vez do humado
       desenhaTabuleiro(tabuleiro)
       movimento = movimentoDoJogador(tabuleiro)
-      robo_movimento(movimento)
+      # robo_movimento(movimento)
       time.sleep(2)
       fazMovimento(tabuleiro, jogadorLetra, movimento)
 
@@ -504,7 +504,7 @@ while jogar:
       #Vez do agente
       #Na função abaixo é definido o movimento do agente
       movimento = pegaMovimentoComp(tabuleiro, vez, compLetra, dificuldade)
-     # robo_movimento(movimento)
+      robo_movimento(movimento)
       fazMovimento(tabuleiro, compLetra, movimento)
       time.sleep(2)
 
